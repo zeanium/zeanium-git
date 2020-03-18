@@ -1,0 +1,27 @@
+{
+  "name": "@zeanium/git",
+  "version": "1.0.1",
+  "description": "Node.js git client base on zeanium framework.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeanium/zeanium-git.git"
+  },
+  "scripts": {
+    "publish": "npm publish --access public",
+    "unpublish": "npm unpublish --access public  --force"
+  },
+  "keywords": [
+    "node.js",
+    "zeanium",
+    "git",
+    "git-client"
+  ],
+  "author": "yangyxu",
+  "email": "xuyy0618@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "@zeanium/core": "latest",
+    "nodegit": "^0.26.5"
+  }
+}
